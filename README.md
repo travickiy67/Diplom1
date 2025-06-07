@@ -139,7 +139,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 *Проверяем доступность хостов и устанавливаем  программы, используя ansible*
 
-![img](https://github.com/travickiy67/Duplom1/blob/main/img/ping.png)
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/ping.png)
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/ansible_instal.png)
 
