@@ -185,3 +185,14 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 </details>
  
+<details>
+<summary>ЛОГИРОВАНИЕ</summary> 
+
+*Смотрим логи в kibana*
+
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/logs.png)
+
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/logs1.png)
+
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/logs3.png)
+</details> 
