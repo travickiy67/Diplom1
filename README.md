@@ -131,57 +131,57 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
   
 *Создаем инфраструктуру используя terraform, машины не прерываемые*  
 
-![img](https://github.com/travickiy67/DIPLOM/blob/main/img/terraform.png)
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/terraform.png)
 
 *Создвно 6 машин*
 
-![img](https://github.com/travickiy67/DIPLOM/blob/main/img/virtual_machin.png)
+![img](https://github.com/travickiy67Diplom/blob/main/img/virtual_machin.png)
 
 *Проверяем доступность хостов и устанавливаем  программы, используя ansible*
 
-![img](https://github.com/travickiy67/DIPLOM/blob/main/img/ping.png)
+![img](https://github.com/travickiy67/Duplom1/blob/main/img/ping.png)
 
-![img](https://github.com/travickiy67/DIPLOM/blob/main/img/ansible_instal.png)
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/ansible_instal.png)
 
 *Балансировщик*
 
-![img](https://github.com/travickiy67/DIPLOM/blob/main/img/balanser.png)
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/balanser.png)
 
 *Целевые группы*
 
-![img](https://github.com/travickiy67/DIPLOM/blob/main/img/ngx-target-group.png)
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/ngx-target-group.png)
 
 *Группы бэкендов пут /*
 
-![img](https://github.com/travickiy67/DIPLOM/blob/main/img/nginx-backend-group.png)
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/nginx-backend-group.png)
 
 *Группы безопасности*
 
-![img](https://github.com/travickiy67/DIPLOM/blob/main/img/security%20groups.png)
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/security%20groups.png)
 
 *Роутер*
 
-![img](https://github.com/travickiy67/DIPLOM/blob/main/img/router.png)
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/router.png)
 
 *Расписание снимков дисков*
 
-![img](https://github.com/travickiy67/DIPLOM/blob/main/img/schedule.png)
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/schedule.png)
 
 *Снимки дисков*
 
-![img](https://github.com/travickiy67/DIPLOM/blob/main/img/snapshot.png)
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/snapshot.png)
 
 *Диски*
 
-![img](https://github.com/travickiy67/DIPLOM/blob/main/img/disks.png)
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/disks.png)
 
 *Карта сети*
 
-![img](https://github.com/travickiy67/DIPLOM/blob/main/img/map.png)
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/map.png)
 
 *Карта балансировки*
 
-![img](https://github.com/travickiy67/DIPLOM/blob/main/img/map_balancer.png)
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/map_balancer.png)
 
 </details>
  
