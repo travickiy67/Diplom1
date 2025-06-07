@@ -195,4 +195,9 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/logs1.png)
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/logs3.png)
+
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/logs4.png)
+
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/logs5.png)
+
 </details> 
