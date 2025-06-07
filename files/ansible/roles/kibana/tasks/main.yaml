@@ -1,0 +1,56 @@
+  - name: Update
+    apt:
+      update_cache: yes
+      force_apt_get: yes
+      cache_valid_time: 3600
+      
+  - name: keyrings
+    shell: |
+      install -d -m 0755 /etc/apt/keyrings
+      
+  - name: copy key file
+    copy:
+      src=files/GPG-KEY-elasticsearch
+      dest=/home/travitskii/GPG-KEY-elasticsearch
+      
+  - name: add elastik apt key
+    ansible.builtin.apt_key:
+      file: "/home/travitskii/GPG-KEY-elasticsearch"
+      state: present
+      
+  - name: Add repozitory
+    copy:
+      dest: /etc/apt/sources.list.d/elastic-7.x.list
+      content: |
+        deb [trusted=yes] https://mirror.yandex.ru/mirrors/elastic/7/ stable main | sudo tee /etc/apt/sources.list.d/elastic-7.x.list
+      
+  - name: Update cahe
+    apt:
+      update_cache: yes
+      force_apt_get: yes
+      cache_valid_time: 3600
+      
+  - name: Install kibana
+    apt:
+      name: kibana
+      state: present
+      update_cache: yes
+
+  - name: Копируем конфигурационный файл kibana
+    template:
+      src: kibana.j2
+      dest: /etc/kibana/kibana.yml
+
+  - name: daemon_reload
+    systemd:
+      daemon_reload: true
+
+  - name: добавляем kibana в автозагрузку
+    systemd:
+      name: kibana
+      enabled: true
+
+  - name: Перезапускаем службы
+    systemd:
+      name: kibana
+      state: started

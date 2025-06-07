@@ -1,0 +1,38 @@
+---
+
+- name: "Install Elacticsearch"   
+  hosts: Elasticsearch 
+  become: true                 
+  roles:                                     
+    - elasticsearch
+    - zabbix-agent
+    
+- name: "Install Nginx"   
+  hosts: web                            
+  become: true
+  roles:                                                                 
+    - nginx  
+    - filebeat 
+    - logstash
+    - zabbix-agent
+- name: "Install Zabbix_agent"
+  hosts:
+    - Bastion  
+  become: yes
+  roles:
+    - zabbix-agent
+  
+- name: "Install kibana"
+  hosts: Kibana
+  become: yes 
+  roles:
+    - kibana
+    - zabbix-agent   
+    
+- name: "Install Zabbix"
+  hosts: Zabbix
+  become: yes    
+  roles:
+    - zabbix  
+    - grafana            
+  

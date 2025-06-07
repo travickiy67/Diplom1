@@ -1,0 +1,76 @@
+
+---   
+    - name: Update apt cache and install Nginx
+      apt:
+        name: nginx
+        state: latest
+        update_cache: yes
+        
+    - name: Create   
+      file: path={{ document_root }}/{{ app_root }} state=directory owner=root group=root owner=www-data group=www-data
+
+    - name: copy file
+      copy:
+        src: files/vzhuh.png
+        dest: /var/www/html/
+
+    - name: Set up HTML file
+      template:
+        src: index.html.j2
+        dest: /var/www/html/index.html
+        owner: www-data
+        group: www-data
+         
+        mode: 0777
+        
+    - name: nginx.conf
+      copy:
+        src: files/nginx.conf
+        dest: /etc/nginx/nginx.conf
+
+    - name: copy status.conf
+      copy:
+        src: files/stub_status.conf
+        dest: /etc/nginx/conf.d/stub_status.conf
+        
+#    - name: daefault
+#      copy:
+#        src: files/default
+#        dest: /etc/nginx/sites-available/default
+
+
+#    - name: Enable new site
+#      file:
+#        src: /etc/nginx/sites-available/default
+#        dest: /etc/nginx/sites-enabled/default
+#        mode: 0644
+#        state: link
+#      notify: Restart Nginx
+        
+      
+
+    - name: Allow all access to tcp port 80
+      ufw:
+        rule: allow
+        port: '80'
+        proto: tcp
+
+    - name: добавляем nginx в автозагрузку
+      systemd:
+        name: nginx.service
+        enabled: true
+
+    - name: Перезапускаем службы
+      systemd:
+        name: nginx.service
+        state: restarted
+
+
+ 
+
+ 
+ 
+    
+ 
+
+ 

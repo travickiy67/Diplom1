@@ -1,0 +1,48 @@
+PidFile=/run/zabbix/zabbix_agentd.pid
+
+### Option: LogType
+#       Specifies where log messages are written to:
+#               system  - syslog
+#               file    - file specified with LogFile parameter
+#               console - standard output
+#
+# Mandatory: no
+# Default:
+# LogType=file
+
+### Option: LogFile
+#       Log file name for LogType 'file' parameter.
+#
+# Mandatory: yes, if LogType is set to file, otherwise no
+# Default:
+# LogFile=
+
+LogFile=/var/log/zabbix/zabbix_agentd.log
+
+### Option: LogFileSize
+#       Maximum size of log file in MB.
+#       0 - disable automatic log rotation.
+#
+# Mandatory: no
+# Range: 0-1024
+# Default:
+# LogFileSize=1
+
+LogFileSize=0
+Server=10.8.3.33
+
+ServerActive=10.8.3.33
+
+### Option: Hostname
+#       List of comma delimited unique, case sensitive hostnames.
+#       Required for active checks and must match hostnames as configured on the server.
+#       Value is acquired from HostnameItem if undefined.
+#
+# Mandatory: no
+# Default:
+# Hostname=
+
+Hostname={{ ansible_facts.hostname }}
+Include=/etc/zabbix/zabbix_agentd.d/*.conf
+
+

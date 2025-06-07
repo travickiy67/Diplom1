@@ -1,0 +1,54 @@
+---
+ 
+    - name: Update
+      apt:
+        update_cache: yes
+        force_apt_get: yes
+        cache_valid_time: 3600
+  
+    - name: keyrings
+      shell: |
+        install -d -m 0755 /etc/apt/keyrings
+        
+    - name: copy key file
+      copy:
+        src=files/GPG-KEY-elasticsearch
+        dest=/home/travitskii/GPG-KEY-elasticsearch
+
+    - name: add elastik apt key
+      ansible.builtin.apt_key:
+        file: "/home/travitskii/GPG-KEY-elasticsearch"
+        state: present  
+ 
+      
+    - name: Add repozitory
+      copy:
+        dest: /etc/apt/sources.list.d/elastic-7.x.list
+        content: |
+          deb [trusted=yes] https://mirror.yandex.ru/mirrors/elastic/7/ stable main | sudo tee /etc/apt/sources.list.d/elastic-7.x.list
+
+    - name: Update cahe
+      apt:
+        update_cache: yes
+        force_apt_get: yes
+        cache_valid_time: 3600
+
+    - name: Install filebeat
+      apt:
+        name: filebeat
+        state: present
+        update_cache: yes
+        
+     
+    - name: Копируем конфиг filebeat
+      template: 
+        src: filebeat.j2
+        dest: /etc/filebeat/filebeat.yml
+
+    - name: Перезапускаем сервисы
+    
+      systemd:
+        name: filebeat
+        enabled: yes
+        state: restarted
+

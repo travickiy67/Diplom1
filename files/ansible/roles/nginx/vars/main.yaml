@@ -1,0 +1,4 @@
+---
+  server_name: "nginx"
+  document_root: /var/www
+  app_root: html
