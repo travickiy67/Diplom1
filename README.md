@@ -135,7 +135,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 *Создвно 6 машин*
 
-![img](https://github.com/travickiy67Diplom/blob/main/img/virtual_machin.png)
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/virtual_machin.png)
 
 *Проверяем доступность хостов и устанавливаем  программы, используя ansible*
 
