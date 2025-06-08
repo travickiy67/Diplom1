@@ -201,3 +201,9 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/logs5.png)
 
 </details> 
+
+<details>
+<summary>МОНИТОРИНГ ZABBIX</summary>
+
+
+</details>
