@@ -248,5 +248,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 *Grafana получает информацию от zabbix, и обнаруживает группы подключонные к zabbix*
 
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/grafana/datasource1.png)
+
 
 </details>
