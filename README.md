@@ -235,3 +235,18 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
  
 </details>
 
+<details>
+<summary>МОНИТОРИНГ GRAFANA</summary>
+
+*Плагин корректно установился и zabbix появился в списке*
+
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/grafana/plagin.png)  
+
+*Подключаем базу zabbix*
+
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/grafana/datasource.png)  
+
+*Grafana получает информацию от zabbix, и обнаруживает группы подключонные к zabbix*
+
+
+</details>
