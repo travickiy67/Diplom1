@@ -217,9 +217,21 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/monitor_zabbix/dahboard.png)  
 
+*Система собрана с учетом экономи ресурсов, посыпались предупрежения, сработали тригеры*
+
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/monitor_zabbix/dahboard1.png)
+
 *Графики мониторинга web серверов, количество активных соединений, время отклика, количество соединений за секунду, количество памяти занимающей сервером*
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/monitor_zabbix/dahboard_web.png)  
+
+*Общие показатели работы серверов cpu, mem*
+
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/monitor_zabbix/dahboard_web1.png)
+
+*Показатели работы bastion, zabbix, elastic, kibana. Показатели нагрузки на процссор, память, скорость записи на диск, сетевая активность*
+
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/monitor_zabbix/dahboard4.png)
  
 </details>
 
