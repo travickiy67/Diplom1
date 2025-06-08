@@ -250,5 +250,18 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/grafana/datasource1.png)
 
-*Визуализация количества подключений (сгенерировал дополнительно через curl), время отклика
-</details>
+*Визуализация количества подключений (сгенерировал дополнительно через curl), время отклика, ожидание подключения, количество плдключений в секунду*
+
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/grafana/nginx.png)  
+
+*Визуализация общих показателей серверов; процессор, память, диск, скорость передачи данных*
+
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/grafana/nginx1.png)
+
+*визуализация показателей  остальных хостов*
+
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/grafana/hosts_all.png)
+
+ 
+</detals>
+
