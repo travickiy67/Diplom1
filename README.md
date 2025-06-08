@@ -205,9 +205,13 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 <details>
 <summary>МОНИТОРИНГ ZABBIX</summary>
 
+*Проверка подключения хостов. На мониторинг подключены все хосты*   
+Хосты все подключены  
+
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/monitor_zabbix/hosts.png)
 
 </details>
 
-*Проверка подключения хостов. На мониторинг подключены все хосты*   
+
 
 
