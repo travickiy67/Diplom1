@@ -151,7 +151,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/ngx-target-group.png)
 
-*Группы бэкендов пут /*
+*Группы бэкендов путь /*
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/nginx-backend-group.png)
 
@@ -258,7 +258,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/grafana/nginx1.png)
 
-*визуализация показателей  остальных хостов*
+*Визуализация показателей  остальных хостов*
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/grafana/hosts_all.png)
 
