@@ -2,10 +2,10 @@
 #  Дипломная работа по профессии «Системный администратор»
 
 ### Доступ к инфраструктуре: 
-#### **Балансировщик: http://51.250.44.151/**  
-#### **kibana: http://158.160.187.43:5601/**  
-#### **zbbix: http://158.160.147.241/zabbix  Логин: Admin  Пароль: zabbix**  
-#### **grafana http://158.160.147.241:3000  Логин: diplom  Пароль: diplom**  
+#### **Балансировщик: http://158.160.164.104/**  
+#### **kibana: http://158.160.188.29:5601/**  
+#### **zbbix: http://158.160.144.246/zabbix  Логин: Admin  Пароль: zabbix**  
+#### **grafana http://158.160.144.246:3000  Логин: diplom  Пароль: diplom**  
  
 Содержание
 ==========
@@ -298,27 +298,31 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 *Плагин корректно установился и zabbix появился в списке*
 
-![img]()  
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/grafana/grafana1.png)  
+
+---
 
 *Подключаем базу zabbix*
 
-![img](https://github.com/travickiy67/Diplom1/blob/main/img/grafana/datasource.)  
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/grafana/grafana2.png)  
+
+---
 
 *Grafana получает информацию от zabbix, и обнаруживает группы хостов подключонных к zabbix*
 
-![img](https://github.com/travickiy67/Diplom1/blob/main/img/grafana/datasource1.png)
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/grafana/grafana3.png)
 
-*Визуализация количества подключений (сгенерировал дополнительно через curl), время отклика, ожидание подключения, количество плдключений в секунду*
+---
+
+*Показатели WEB сервера*
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/grafana/nginx.png)  
 
-*Визуализация общих показателей серверов; процессор, память, диск, скорость передачи данных*
-
-![img](https://github.com/travickiy67/Diplom1/blob/main/img/grafana/nginx1.png)
+---
 
 *Визуализация показателей  остальных хостов*
 
-![img](https://github.com/travickiy67/Diplom1/blob/main/img/grafana/hosts_all.png)
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/grafana/grafana4.png)
 
  
 </detals>
