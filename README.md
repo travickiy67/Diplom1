@@ -175,7 +175,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 *Снимки дисков*
 
-![img]()
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/mashin/snapchot.png)
 
 *Диски*
 
@@ -199,7 +199,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/curl-web.png)
 
-*Проверка через WEB*
+*Проверка WEB*
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/web/web1.png)
 
@@ -232,11 +232,11 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 *Проверка подключения хостов. На мониторинг подключены все хосты*  
 
-![img](https://github.com/travickiy67/Diplom1/blob/main/img/monitor_zabbix/hosts.png)
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/zabbix/zabbix1.png)
 
 *Данные поступают со всех хостов, в том числе с web серверов*  
 
-![img](https://github.com/travickiy67/Diplom1/blob/main/img/monitor_zabbix/hosts1.png)  
+![img]()  
 
 *Дефолтовый дашборд*
 
