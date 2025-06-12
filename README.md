@@ -201,6 +201,9 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 *Проверка через WEB*
 
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/web/web1.png)
+
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/web/web2.png)
 
 </details>
 
