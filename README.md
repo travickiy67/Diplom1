@@ -123,7 +123,9 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 ---
 
-## **ВЫПОЛНЕНИЕ ДИПЛОМНОЙ РАБОТЫ** 
+## **ВЫПОЛНЕНИЕ ДИПЛОМНОЙ РАБОТЫ**
+
+![files](https://github.com/travickiy67/Diplom1/tree/main/files/filles) 
 <details>
 <summary>ПОДНЯТИЕ ИНФРАСТРУКТУРЫ</summary>  
 
@@ -240,24 +242,31 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 *Дефолтовый дашборд*
 
-![img]()  
-
-*Система собрана с учетом экономи ресурсов, посыпались предупрежения, сработали тригеры*
-
-![img](https://github.com/travickiy67/Diplom1/blob/main/img/monitor_zabbix/dahboard1.png)
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/zabbix/default.png)  
 
 *Графики мониторинга web серверов, количество активных соединений, время отклика, количество соединений за секунду, количество памяти занимающей сервером*
 
-![img](https://github.com/travickiy67/Diplom1/blob/main/img/monitor_zabbix/dahboard_web.png)  
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/zabbix/zabbix2.png)  
 
-*Общие показатели работы серверов cpu, mem*
+*Графики мениторинга kibana* 
 
-![img](https://github.com/travickiy67/Diplom1/blob/main/img/monitor_zabbix/dahboard_web1.png)
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/zabbix/kibana.png)   
 
-*Показатели работы bastion, zabbix, elastic, kibana. Показатели нагрузки на процссор, память, скорость записи на диск, сетевая активность*
+*Графики мониторинга elasticsearch*
 
-![img](https://github.com/travickiy67/Diplom1/blob/main/img/monitor_zabbix/dahboard4.png)
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/zabbix/elastic.png)  
+
+*Графики мониторинга bastion*
+
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/zabbix/bastion.png)
  
+*Графики мониторинга zabbix-server*  
+
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/zabbix/zabbix_serber.png)  
+
+*dashboard.list*  
+
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/zabbix/dashboards.png)
 </details>
 
 <details>
