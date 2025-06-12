@@ -129,59 +129,65 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 ## Создано шесть машин. Доступ к машинам возможен по ssh через бастион. Все програмное обеспечение устанавливается через ansible с использованием прокси команды. Ip адреса при при установке инфраструктуры и конфигурационных файлах не используются, используется fqdn имена виртуальных машин. Открыты только необходимые порты. Программы на машины установленны с помощью ansible (roles). установленно все что требовалось, дополнителен logstach и grafana.
   
-*Создаем инфраструктуру используя terraform, машины не прерываемые*  
+*Создаем инфраструктуру используя terraform, meta даннуе не отображаются в терминале*  
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/terraform.png)
 
-*Создвно 6 машин*
+*Установка завершена*
 
-![img](https://github.com/travickiy67/Diplom1/blob/main/img/virtual_machin.png)
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/terraform2.png)
 
 *Проверяем доступность хостов и устанавливаем  программы, используя ansible*
 
-![img](https://github.com/travickiy67/Diplom1/blob/main/img/ping.png)
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/ansible-ping.png)
 
-![img](https://github.com/travickiy67/Diplom1/blob/main/img/ansible_instal.png)
+*Установка без ошибок*
+
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/ansible-install.png)
+
+*Создано 6 машин*
+
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/mashin/virtual-mashin.png)
 
 *Балансировщик*
 
-![img](https://github.com/travickiy67/Diplom1/blob/main/img/balanser.png)
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/mashin/nginx-balancer.png)
 
 *Целевые группы*
 
-![img](https://github.com/travickiy67/Diplom1/blob/main/img/ngx-target-group.png)
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/mashin/ngx-target-group.png)
 
 *Группы бэкендов путь /*
 
-![img](https://github.com/travickiy67/Diplom1/blob/main/img/nginx-backend-group.png)
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/mashin/nginx-backend-group.png)
 
 *Группы безопасности*
 
-![img](https://github.com/travickiy67/Diplom1/blob/main/img/security%20groups.png)
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/mashin/sg.png)
 
 *Роутер*
 
-![img](https://github.com/travickiy67/Diplom1/blob/main/img/router.png)
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/mashin/nginx-router.png)
 
 *Расписание снимков дисков*
 
-![img](https://github.com/travickiy67/Diplom1/blob/main/img/schedule.png)
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/mashin/virtual-mashin1.png)
 
 *Снимки дисков*
 
-![img](https://github.com/travickiy67/Diplom1/blob/main/img/snapshot.png)
+![img]()
 
 *Диски*
 
-![img](https://github.com/travickiy67/Diplom1/blob/main/img/disks.png)
+![img]()
 
 *Карта сети*
 
-![img](https://github.com/travickiy67/Diplom1/blob/main/img/map.png)
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/mashin/map_net.png)
 
 *Карта балансировки*
 
-![img](https://github.com/travickiy67/Diplom1/blob/main/img/map_balancer.png)
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/mashin/nginx-balancer1.png)
 
 </details>
  
