@@ -208,7 +208,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
  
 
 <details>
-<summary>Работа сайта</summary>
+<summary>РАБОТА САЙТА</summary>
 
 *Проверка балансировки через curl*
 
@@ -302,7 +302,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 *Подключаем базу zabbix*
 
-![img](https://github.com/travickiy67/Diplom1/blob/main/img/grafana/datasource.png)  
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/grafana/datasource.)  
 
 *Grafana получает информацию от zabbix, и обнаруживает группы хостов подключонных к zabbix*
 
