@@ -1,0 +1,3 @@
+---
+ kibana_host: http://kibana.ru-central1.internal:5601
+ elastic_host: http://elastic.ru-central1.internal:9200
