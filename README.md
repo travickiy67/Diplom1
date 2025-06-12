@@ -236,11 +236,11 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 *Данные поступают со всех хостов, в том числе с web серверов*  
 
-![img]()  
+![img](https://github.com/travickiy67/Diplom1/blob/main/img/zabbix/zabbix3.png)  
 
 *Дефолтовый дашборд*
 
-![img](https://github.com/travickiy67/Diplom1/blob/main/img/monitor_zabbix/dahboard.png)  
+![img]()  
 
 *Система собрана с учетом экономи ресурсов, посыпались предупрежения, сработали тригеры*
 
