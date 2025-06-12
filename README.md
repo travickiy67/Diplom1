@@ -125,7 +125,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 ## **ВЫПОЛНЕНИЕ ДИПЛОМНОЙ РАБОТЫ**
 
-![files](https://github.com/travickiy67/Diplom1/tree/main/files/filles) 
+[files](https://github.com/travickiy67/Diplom1/tree/main/files/filles) 
 <details>
 <summary>ПОДНЯТИЕ ИНФРАСТРУКТУРЫ</summary>  
 
@@ -134,62 +134,75 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 *Создаем инфраструктуру используя terraform, meta даннуе не отображаются в терминале*  
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/terraform.png)
+---
 
 *Установка завершена*
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/terraform2.png)
+---
 
 *Проверяем доступность хостов и устанавливаем  программы, используя ansible*
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/ansible-ping.png)
+---
 
 *Установка без ошибок*
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/ansible-install.png)
+---
 
 *Создано 6 машин*
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/mashin/virtual-mashin.png)
+---
 
 *Балансировщик*
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/mashin/nginx-balancer.png)
+---
 
 *Целевые группы*
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/mashin/ngx-target-group.png)
+---
 
 *Группы бэкендов путь /*
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/mashin/nginx-backend-group.png)
+---
 
 *Группы безопасности*
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/mashin/sg.png)
+---
 
 *Роутер*
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/mashin/nginx-router.png)
+---
 
 *Расписание снимков дисков*
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/mashin/virtual-mashin1.png)
+---
 
 *Снимки дисков*
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/mashin/snapchot.png)
-
+---
 *Диски*
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/mashin/hdd.png)
+---
 
 *Карта сети*
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/mashin/map_net.png)
-
+---
 *Карта балансировки*
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/mashin/nginx-balancer1.png)
+---
 
 </details>
  
@@ -200,14 +213,15 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 *Проверка балансировки через curl*
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/curl-web.png)
+---
 
 *Проверка WEB*
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/web/web1.png)
-
 ---
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/web/web2.png)
+---
 
 </details>
 
@@ -217,15 +231,15 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 *Смотрим логи в kibana*
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/logs/logs1.png)  
-
 ---
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/logs/logs2.png)
-
 ---
+
 *Дашборд, активные соединения*
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/logs/logs3.png)
+---
 
 </details> 
 
@@ -235,38 +249,48 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 *Проверка подключения хостов. На мониторинг подключены все хосты*  
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/zabbix/zabbix1.png)
+---
 
 *Данные поступают со всех хостов, в том числе с web серверов*  
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/zabbix/zabbix3.png)  
+---
 
 *Дефолтовый дашборд*
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/zabbix/default.png)  
+---
 
 *Графики мониторинга web серверов, количество активных соединений, время отклика, количество соединений за секунду, количество памяти занимающей сервером*
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/zabbix/zabbix2.png)  
+---
 
 *Графики мениторинга kibana* 
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/zabbix/kibana.png)   
+---
 
 *Графики мониторинга elasticsearch*
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/zabbix/elastic.png)  
+---
 
 *Графики мониторинга bastion*
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/zabbix/bastion.png)
+---
  
 *Графики мониторинга zabbix-server*  
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/zabbix/zabbix_serber.png)  
+---
 
 *dashboard.list*  
 
 ![img](https://github.com/travickiy67/Diplom1/blob/main/img/zabbix/dashboards.png)
+---
+
 </details>
 
 <details>
@@ -274,7 +298,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 *Плагин корректно установился и zabbix появился в списке*
 
-![img](https://github.com/travickiy67/Diplom1/blob/main/img/grafana/plagin.png)  
+![img]()  
 
 *Подключаем базу zabbix*
 
