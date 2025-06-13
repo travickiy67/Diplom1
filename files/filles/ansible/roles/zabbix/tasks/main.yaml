@@ -53,6 +53,11 @@
         path: /etc/zabbix/zabbix_server.conf
         regexp: '^DBPassword='
         line: 'DBPassword=zabbix'
+    
+    - name: добавляем zabbix в автозагрузку
+      systemd:
+        name: zabbix
+        enabled: true
         
     - name: restart zabbix
       systemd:
